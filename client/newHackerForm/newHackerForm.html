@@ -1,0 +1,52 @@
+<template name="newHackerForm">
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <h1>Add a Hacker</h1>
+      <hr />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-8 col-xs-offset-2">
+      <form id="hackerForm" class="form-horizontal">
+
+        <div class="form-group">
+          <label for="hackerName" class="control-label col-xs-2">Hacker Name</label>
+          <div class="col-xs-10">
+            <input id="hackerName" class="form-control" type="text" placeholder="Anon, 1337801, Racer X...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="legal-name" class="control-label col-xs-2">Legal Name</label>
+          <div class="col-xs-10">
+            <input id="legalName" class="form-control" type="text" placeholder="Grace Hopper, Charles Babbage...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="control-label col-xs-2">Email</label>
+          <div class="col-xs-10">
+            <input id="email" class="form-control" type="email" placeholder="me@notahacker.com...">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="allegiance" class="control-label col-xs-2">Allegiance</label>
+          <div class="col-xs-10">
+            <select id="allegiance" class="form-control">
+              <option>Black Hat</option>
+              <option>White Hat</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-xs-8 col-xs-offset-2">
+            <button id="submitHacker" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>
