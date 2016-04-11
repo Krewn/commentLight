@@ -15,7 +15,8 @@ Template.newHackerForm.events({
       allegiance: allegiance
     }
 
-    console.log(newHacker);
+    Hackers.insert();
+    alert(`Created: ${newHacker.legalName} (${newHacker.hackerName})`);
   }
 
 });
