@@ -1,0 +1,17 @@
+
+#loginNavElm{
+	padding-top: 1vw; 
+}
+#pageTitleNavElm{
+	padding-top: 1vw;
+	font-family: 'Bree Serif', serif;
+}
+#Nav-Title{
+
+}
+
+	/*display: -webkit-flex;
+	-webkit-justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
+	float: left*/

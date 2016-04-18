@@ -1,8 +1,11 @@
 <template name = "myNavbar">
 	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-		<div class="navbar-header">
-		  {{> loginButtons}}
+	  <div class="container-fluid" id = "Nav-Content">
+		<div class="navbar-left" id = "Nav-Title">
+			<p id = "pageTitleNavElm">Common</p>
+		</div>
+		<div class="navbar-right">
+		  <div id= "loginNavElm">{{> loginButtons}}</div>
 		</div>
 	  </div>
 	</nav>
